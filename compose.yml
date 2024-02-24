@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  remix:
+    container_name: remix
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/usr/src/app
+    command: sh -c "npm dev"
+    ports:
+      - "8080:8080"
