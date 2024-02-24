@@ -1,3 +1,9 @@
+# 実行
+
+```
+docker compose up
+```
+
 # templates/spa
 
 This template leverages [Remix SPA Mode](https://remix.run/docs/en/main/future/spa-mode) to build your app as a Single-Page Application using [Client Data](https://remix.run/docs/en/main/guides/client-data) for all of you data loads and mutations.
