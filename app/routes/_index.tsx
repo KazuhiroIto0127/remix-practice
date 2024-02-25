@@ -2,7 +2,7 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix SPA" },
+    { title: "Remix SPA" },
     { name: "description", content: "Welcome to Remix (SPA Mode)!" },
   ];
 };
@@ -10,7 +10,7 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <h1>Welcome to Remix (SPA Mode)</h1>
+      <h1>テスト</h1>
       <ul>
         <li>
           <a
